@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Font/css/font-awesome.css">
+    <link rel="stylesheet" href="Animations.css">
+    <title>Coffee</title>
+</head>
+<body>
+    <nav class="animate__animated animate__flipInX">
+        <div class="f-d-nav">
+            <img src="Image/Logo.png" alt="" class="img-h">
+            <ul class="h-fs">
+                <a href="index.html" class="tx-a"><li class="h-fs-i li-m">Home</li></a>
+                <a href="Menu.html" class="tx-a"><li class="h-fs-i li-m">Menu</li></a>
+                <a href="Log-form.php" class="tx-a"><li class="h-fs-i li-m">Login</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div class="sec-nav">
+        <h1 class="sec-text-size">Coffee Shop</h1>
+        <p class="p-sec-text-size">Great Coffee & Great Moments</p>
+    </div>
+    <div>
+        <div class="text-center">
+            <div>
+                We bring cofee & people together
+            </div>
+        </div>
+        <div class="btn-filter">
+            <button class="button-filter" onclick="renderAllProducts()">All</button>
+            <button class="button-filter" onclick="renderDrinks()">Drinks ☕️</i></button>
+            <button class="button-filter" onclick="renderBrunch()">Brunch 🥖</button>
+            <button class="button-filter" onclick="renderSalad()">Salads 🥗</button>
+        </div>
+    </div><br>
+    <div class="product-pos">
+        <p>please select a category that you need :)</p>
+    </div><br>
+</body>
+<script src="js/app.js"></script>
+</html>
